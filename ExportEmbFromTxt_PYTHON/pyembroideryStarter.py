@@ -20,14 +20,10 @@ canvasWidth = 1000  #pixel distance representing 100mm in .txt file from sketch
                     #canvasWidth = 100mm (~4in)
                     #I usually set this to 1000
 
-
-
 maxX = 1500
 maxY = 2400
 #set to 1500x2400 for Husq Jade 35 (15x24cm)
 #1000x1000 for 4inx4in hoop (10x10cm)
-
-
 
 reverseBlocks = False
 
@@ -76,9 +72,6 @@ def addToPattern(pattern,fileName, color):
             xys.append(0)
 
     tups = ar2tups(properUnits(xys))
-
-    ##I commented this out, I was trying to add trim stitches it doesn't work for PES or VP3 afaik
-    ##if you uncomment, replace "pattern.add_block(tups, color)" with "pattern.color_change()"
     # for t in tups:
     #     if (isTrim(t)):
     #         pattern.trim()
@@ -152,6 +145,7 @@ def exportSingle(n) :
     if (pes) :
         if not os.path.exists("OutputPES/"+fStr):
             os.makedirs("OutputPES/"+fStr)
+        #write_pes(pattern1, "OutputPES/"+names[1]+".pes")
         write_pes(pattern1, "OutputPES/"+names[0]+nStr+".pes")
 
     if (vp3) :
@@ -172,6 +166,6 @@ def exportSingle(n) :
 
 
 
-exportSingle("")
+#exportSingle("")
 
-#exportRange(0,26,1) #calls exportSingle(n) with each number in range as filename extension
+exportRange(0,26,1) #calls exportSingle(n) with each number in range as filename extension
