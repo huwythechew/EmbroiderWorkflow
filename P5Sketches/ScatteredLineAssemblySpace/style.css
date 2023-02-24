@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100.5vh;
+  overflow: hidden;
+  background: rgb(200,200,200);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  touch-action: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+
+}
