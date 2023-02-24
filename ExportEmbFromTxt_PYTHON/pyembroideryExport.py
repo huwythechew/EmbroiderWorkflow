@@ -11,8 +11,8 @@ dst = False
 svg = False
 
 #names contains the filename (without extension) of each color's txt file name
-#names = ["Hilbert"]
-names = ["HilbertFrms/"]
+names = ["Hilbert"]
+#names = ["HilbertFrms/"]
 colors = ["black","red","green","blue","yellow","orange","magenta","purple"]
 srcFolder = "srcTxts/"
 
@@ -27,6 +27,8 @@ maxY = 2400
 
 reverseBlocks = False
 
+
+### FUNCTION DEFS vvv #### ### ### ### ### ### ### ### ### ### ### ### ### ###
 
 
 #scale array of values based on canvasWidth
@@ -164,8 +166,8 @@ def exportSingle(n) :
         write_svg(pattern1, "OutputSVG/"+names[0]+nStr+".svg")
 
 
+### MAIN PROGRAM CALL vvv #### ### ### ### ### ### ### ### ### ### ### ### ### ###
 
+exportSingle("")
 
-#exportSingle("")
-
-exportRange(0,26,1) #calls exportSingle(n) with each number in range as filename extension
+#exportRange(0,26,1) #calls exportSingle(n) with each number in range as filename extension
