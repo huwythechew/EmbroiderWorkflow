@@ -57,6 +57,7 @@ This tool is not very organized, pretty bad UI, but it works.
 **H** - Flip/mirror a selected object horizontally.
 
 **0** - Rotate selected object clockwise.
+
 **9** - Rotate selected object counterclockwise.
 
 **I** - Toggle showing the reference image.
