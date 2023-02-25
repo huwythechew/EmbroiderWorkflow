@@ -5,14 +5,16 @@ import os
 
 
 #set booleans to export type
-pes = False
+pes = True
 vp3 = True
 dst = False
 svg = False
 
-#names contains the filename (without extension) of each color's txt file name
+#"names" contains the filename (without extension) of each color's txt file name
 names = ["Hilbert"]
+#names = ["Flwr_stem","Flwr_flwr"]
 #names = ["HilbertFrms/"]
+
 colors = ["black","red","green","blue","yellow","orange","magenta","purple"]
 srcFolder = "srcTxts/"
 
