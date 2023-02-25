@@ -1,6 +1,7 @@
 String fileName = "RefImgs/circle.png";//path of image
 String folderName = "";
-String loadFrom = "ProjectTxts/Blank.txt";
+String loadFrom = "Blank.txt";
+String projectTxtFolder = "ProjectTxts/";
 String pointExportFolder = "ExportedPoints/";
 PImage art;
 String curTool = "select";
@@ -54,7 +55,7 @@ void setup() {
   //size(1303,733);
   //size(1080,1080);
   initArt(folderName+fileName);
-  String[] loadingObjs = loadStrings(loadFrom);
+  String[] loadingObjs = loadStrings(projectTxtFolder+loadFrom);
   if (loadingObjs!=null&&loadFrom.length()>0) queue = fromString(loadingObjs);
 }
 

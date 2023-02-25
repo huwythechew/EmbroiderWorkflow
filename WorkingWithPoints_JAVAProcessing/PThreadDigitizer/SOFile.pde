@@ -8,6 +8,6 @@ String[] queueToString(ArrayList<StitchObj> q) {
 
 void saveQueue(ArrayList<StitchObj> q,String path) {
   String[] s = queueToString(q);
-  saveStrings(path,s);
+  saveStrings(projectTxtFolder+path,s);
   saveStchs(q);
 }
