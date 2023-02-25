@@ -1,7 +1,7 @@
 ## [Export Embroidery From .txt Files - Python](/ExportEmbFromTxt_PYTHON)
 Uses the [pyembroidery](https://github.com/EmbroidePy/pyembroidery) python library - must install that.
 ### Standard Exporting:
-- .txt files get saved to "srcTxts/" folder.
+- .txt files containing 2D points get saved to "srcTxts/" folder. (Format is described below)
 
 In <code>pyembroideryExport.py</code>:
 - <code>names</code> is a list that contains the filename of each .txt file in <code>srcTxts/</code> to be exported (omitting the ".txt" extension)
@@ -17,7 +17,7 @@ $ python pyembroideryExport.py
 ### Exporting a numbered set of files (animation):
 - Have a folder in <code>srcTxts/</code> for each color, containing all the frames for that color. (See <code>srcTxts/HilbertFrms/</code>)
 - Populate <code>names</code> with each folder's name.
-  - ex. <code>names = ["HilbertFrms/"]</code>
+  - <code>names = ["HilbertFrms/"]</code>
   
 - Replace <code>exportSingle("")</code> with <code>exportRange(0,numberOfFrames,1)</code>
   - <code>exportRange(0,numberOfFrames,1)</code> parameters work like the <code>range(start,stop,step)</code> function - 
