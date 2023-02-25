@@ -1,6 +1,10 @@
 # EmbroiderWorkflow
 Reduced files I use for programming points in Processing and exporting workable embroidery files.
 
+## [Working With Points - Java Processing](/WorkingWithPoints_JAVAProcessing/PThreadDigitizer)
+
+### [PThread General Digitizer](/WorkingWithPoints_JAVAProcessing/PThreadDigitizer)
+This program prototype can be used for digitizing different running stitches and satin stitches, overlaying a reference image.
 
 ## [Export Embroidery From .txt Files - Python](/ExportEmbFromTxt_PYTHON)
 Uses the [pyembroidery](https://github.com/EmbroidePy/pyembroidery) python library.
