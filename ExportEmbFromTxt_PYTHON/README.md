@@ -24,7 +24,8 @@ $ python pyembroideryExport.py
   exports a file with all colors for each number in the range.
 
 #
-## Standard .txt format for storing 2D points
+#
+### Standard .txt format for storing 2D points
 The tools I use for generating stitch effects exists as a bunch of separate Processing sketches.
 It's important to be able to save lists of 2D points to reference them in another sketch or script.
 
