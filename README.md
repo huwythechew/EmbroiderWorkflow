@@ -6,6 +6,9 @@ Reduced files I use for programming points in Processing and exporting workable 
 ### [PThread General Digitizer](/WorkingWithPoints_JAVAProcessing/PThreadDigitizer)
 This program prototype can be used for digitizing different running stitches and satin stitches, overlaying a reference image.
 
+### [FillPixel](/WorkingWithPoints_JAVAProcessing/FillPixel)
+This program takes black and white images and helps you map out fill stitches for the defined areas. 
+
 ## [Export Embroidery From .txt Files - Python](/ExportEmbFromTxt_PYTHON)
 Uses the [pyembroidery](https://github.com/EmbroidePy/pyembroidery) python library.
 
