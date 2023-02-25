@@ -4,6 +4,19 @@ Reduced files I use for programming points in Processing and exporting workable 
 
 ## [Export Embroidery From .txt Files - Python](/ExportEmbFromTxt_PYTHON)
 Uses the [pyembroidery](https://github.com/EmbroidePy/pyembroidery) python library.
+
+Pyembroidery will write:
+
+- pes (mandated)
+- dst (mandated)
+- exp (mandated)
+- jef (mandated)
+- vp3 (mandated)
+- .u01
+- .pec
+- .xxx
+- gcode
+
 ### - Standard Exporting
 
 ### - Exporting a numbered set of files (animation)
