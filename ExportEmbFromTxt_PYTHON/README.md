@@ -1,4 +1,4 @@
-## [Export Embroidery From .txt Files - Python](/ExportEmbFromTxt_PYTHON)
+## Export Embroidery From .txt Files - Python
 Uses the [pyembroidery](https://github.com/EmbroidePy/pyembroidery) python library - must install that.
 ### Standard Exporting:
 - .txt files containing 2D points get saved to "srcTxts/" folder. (Format is described below)
@@ -22,6 +22,8 @@ $ python pyembroideryExport.py
 - Replace <code>exportSingle("")</code> with <code>exportRange(0,numberOfFrames,1)</code>
   - <code>exportRange(0,numberOfFrames,1)</code> parameters work like the <code>range(start,stop,step)</code> function - 
   exports a file with all colors for each number in the range.
+
+- run <code>pyembroideryExport.py</code> in terminal.
 
 #
 #

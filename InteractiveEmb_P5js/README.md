@@ -1,14 +1,4 @@
-# EmbroiderWorkflow
-Reduced files I use for programming points in Processing and exporting workable embroidery files.
-
-
-## [Export Embroidery From .txt Files - Python](/ExportEmbFromTxt_PYTHON)
-Uses the [pyembroidery](https://github.com/EmbroidePy/pyembroidery) python library.
-### - Standard Exporting
-
-### - Exporting a numbered set of files (animation)
-
-## [Frame-By-Frame Live Animation - P5js](/InteractiveEmb_P5js)
+# Frame-By-Frame Live Animation - P5js
 These sketches show some ways of creating interactive or code-driven animations with a limited set of existing frames.
 
 
@@ -64,27 +54,5 @@ The program animates two points interacting with the cursor, and then displays a
 
 ![ScatteredLineAssemblySpace_COVER](https://user-images.githubusercontent.com/111546097/221305123-610f501c-10c3-4c4b-86c5-365316fdb04a.gif)
 
-#
-#
-## Standard .txt format for storing 2D points
-The tools I use for generating stitch effects exists as a bunch of separate Processing sketches.
-It's important to be able to save lists of 2D points to reference them in another sketch or script.
 
-I use .txt as a common filetype for reading and writing between Processing Sketches and the Python exporter.
 
-### Format
-In program:
-```
-List = [(x1,y1), (x2,y2), (x3,y3)...]
-```
-
-Saved as .txt:
-```
-x1
-y1
-x2
-y2
-x3
-y3
-...
-```
