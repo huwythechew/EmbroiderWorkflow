@@ -4,9 +4,13 @@ Digitizing and generally arranging running and satin stitches.
 Currently just for digitizing one color at a time:
 - <code>String fileName</code> links to a reference image to be displayed on the canvas. (Begin with <code>"RefImgs/...</code>)
   - If an image doesn't exist at this path none will be shown.
-- <code>String loadFrom</code> links to a project file, this program saves projects as .txt. (Begin with <code>"ProjectTxts/...</code>)
+- <code>String loadFrom</code> links to a project file, this program saves projects as .txt.
   - If the file linked here doesn't exist, it will create one when you "save".
+
+- <code>String ProjectTxtsFolder</code> links to where the project .txt files are loaded from and saved to.
+
 - <code>String pointExportFolder</code> links to where the final .txt file with stitch positions wil be saved.
+
 
 This tool is not very organized, pretty bad UI, but it works.
 
