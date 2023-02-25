@@ -1,5 +1,18 @@
 ## Export Embroidery From .txt Files - Python
 Uses the [pyembroidery](https://github.com/EmbroidePy/pyembroidery) python library - must install that.
+
+Pyembroidery will write:
+
+- pes (mandated)
+- dst (mandated)
+- exp (mandated)
+- jef (mandated)
+- vp3 (mandated)
+- .u01
+- .pec
+- .xxx
+- gcode
+
 ### Standard Exporting:
 - .txt files containing 2D points get saved to "srcTxts/" folder. (Format is described below)
 
