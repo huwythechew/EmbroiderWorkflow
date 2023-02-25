@@ -7,7 +7,7 @@ Currently just for digitizing one color at a time:
 - <code>String loadFrom</code> links to a project file, this program saves projects as .txt.
   - If the file linked here doesn't exist, it will create one when you "save".
 
-- <code>String ProjectTxtsFolder</code> links to where the project .txt files are loaded from and saved to.
+- <code>String projectTxtFolder</code> links to where the project .txt files are loaded from and saved to.
 
 - <code>String pointExportFolder</code> links to where the final .txt file with stitch positions wil be saved.
 
