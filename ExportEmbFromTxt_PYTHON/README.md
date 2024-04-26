@@ -43,7 +43,6 @@ $ python pyembroideryExport.py
 - run <code>pyembroideryExport.py</code> in terminal.
 
 #
-#
 ### Standard .txt format for storing 2D points
 The tools I use for generating stitch effects exists as a bunch of separate Processing sketches.
 It's important to be able to save lists of 2D points to reference them in another sketch or script.
