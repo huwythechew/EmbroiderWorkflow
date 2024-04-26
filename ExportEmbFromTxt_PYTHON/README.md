@@ -13,6 +13,8 @@ Pyembroidery will write:
 - .xxx
 - gcode
 
+
+
 ### Standard Exporting:
 - .txt files containing 2D points get saved to "srcTxts/" folder. (Format is described below)
 
@@ -27,6 +29,8 @@ In <code>pyembroideryExport.py</code>:
 ```
 $ python pyembroideryExport.py
 ```
+
+
 ### Exporting a numbered set of files (animation):
 - Have a folder in <code>srcTxts/</code> for each color, containing all the frames for that color. (See <code>srcTxts/HilbertFrms/</code>)
 - Populate <code>names</code> with each folder's name.
